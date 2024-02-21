@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-
-/*I don't think this import worked above I'll fix it later!!!*/
-
 .Home {
     align-items: center;
     height: 100%;
     width: 100%;
     background-color: black;
 }
+.dancing-script-example {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    /* Adjust as necessary */
+}
 
+.syne-example {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    /* Adjust as necessary */
+}
 .Home-screen {
     background-color: #EDEEFF;
     min-height: 100vh;
@@ -21,31 +27,32 @@
 .Home-nav {
     width: 100%;
     color: white;
-    padding: 10px 0;
+    padding: 1vh 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: calc(10px + 10vmin);
+    height: 12vh;
 }
 
 .Home-nav-links {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 14vh;
+    height: 12vh;
     width: 50vw;
 }
 
 .Home-nav-links a {
     font-family: "Syne", sans-serif;
+    font-weight: 600;
     color: black;
     text-decoration: none;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
 }
 
 .Home-nav-logo {
     text-decoration: none;
-    height: 14vh;
+    height: 12vh;
     width: 20vw;
     display: flex;
     align-items: center;
@@ -54,10 +61,10 @@
 
 .Home-nav-logo a {
     font-family: "Syne", sans-serif;
-    font-weight: bold;
+    font-weight: 700;    
     color: black;
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 4.5vh;
 }
 .Home-second {
     display: flex;
@@ -65,7 +72,7 @@
     width: 100vw;
 }
 .Home-header-container {
-    height: 86vh;
+    height: 100vh;
     display: flex;
     width: 64vw;
     align-items: center;
@@ -76,8 +83,8 @@
     display: flex;
     font-size: 5vh;
     color: black;
-    font-weight: bold;
     font-family: "Syne", sans-serif;
+    font-weight: 700;
     height: 20vh;
     width: 30vw;
     align-items: center;
@@ -103,10 +110,11 @@
 .Home-subheader a {
     background-color: #C2AFF0;
     font-family: "Syne", sans-serif;
+    font-weight: 700;
     color: white;
     text-decoration: none;
-    font-size: 2.8vh;
-    padding: 1vh 2vw;
+    font-size: 2.3vh;
+    padding: 1vh 1vw;
     display: flex;
     justify-content: center;
     align-items: center;

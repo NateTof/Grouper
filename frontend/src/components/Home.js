@@ -25,11 +25,9 @@ function Home() {
                 </nav>
                 <div className="Home-second">
                     <div className="Home-header-container">
-                        <header className="Home-header">
-                            <p>
-                                <code>Embark on Your Learning Adventure</code>
-                            </p>
-                        </header>
+                        <div className="Home-header" >
+                            Embark on Your Learning Adventure
+                        </div>
                         <div className="Home-subheader">
                             <a href="/">Get Started</a>
                         </div>
