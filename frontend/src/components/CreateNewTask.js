@@ -4,7 +4,7 @@ function Tasks() {
 
     return (
         <div className="Tasks">
-            <h1>Tasks</h1>
+            <h1>Create a new task here!</h1>
         </div>
     );
 }
