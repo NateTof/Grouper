@@ -1,7 +1,7 @@
 // Home.js
 import React from 'react';
 import './Home.css'; 
-import homeImage from './stock-teaching-image.png';
+import homeImage from '../assets/stock-teaching-image.png';
 import { Link } from 'react-router-dom';
 
 //The best way to visualize this when creating your own pages is to put a background-color on each of the div elements
@@ -29,7 +29,7 @@ function Home() {
                             Embark on Your Learning Adventure
                         </div>
                         <div className="Home-subheader">
-                            <a href="/">Get Started</a>
+                            <Link to="/register">Get Started</Link> { }
                         </div>
                     </div>
                     <img src={homeImage} alt="Home" />

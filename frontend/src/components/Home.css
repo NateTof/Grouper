@@ -4,17 +4,6 @@
     width: 100%;
     background-color: black;
 }
-.dancing-script-example {
-    font-family: "Dancing Script", cursive;
-    font-weight: 400;
-    /* Adjust as necessary */
-}
-
-.syne-example {
-    font-family: "Syne", sans-serif;
-    font-weight: 700;
-    /* Adjust as necessary */
-}
 .Home-screen {
     background-color: #EDEEFF;
     min-height: 100vh;
@@ -106,7 +95,10 @@
     width: 25vw;
     text-align: center;
 }
-
+.Home-subheader a:hover {
+    background-color: black;
+    color: white;
+}
 .Home-subheader a {
     background-color: #C2AFF0;
     font-family: "Syne", sans-serif;

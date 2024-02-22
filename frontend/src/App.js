@@ -6,6 +6,8 @@ import Groups from './components/Groups';
 import './components/Groups.css';
 import Tasks from './components/Tasks'; 
 import './components/Tasks.css';
+import Register from './components/Register';
+import './components/Register.css';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/groups" element={<Groups />} />
         <Route path="/tasks" element={<Tasks />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
