@@ -5,9 +5,8 @@ import homeImage from '../assets/stock-teaching-image.png';
 import { Link } from 'react-router-dom';
 
 //The best way to visualize this when creating your own pages is to put a background-color on each of the div elements
-//You can use a lot of the css I used on this Hone.css for your own pages or understanding of what they do
+//You can use a lot of the css I used on this Home.css for your own pages or understanding of what they do
 
-// you might have to run 'npm install react-router-dom' if the project isn't compiling <------
 
 function Home() {
     return (
@@ -20,7 +19,7 @@ function Home() {
                     <div className="Home-nav-links">
                         <Link to="/tasks">TASKS</Link> {}
                         <Link to="/groups">GROUPS</Link> {}
-                        <Link to="/">SIGN IN</Link> {}
+                        <Link to="/login">SIGN IN</Link> {}
                     </div>
                 </nav>
                 <div className="Home-second">

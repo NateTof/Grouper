@@ -8,6 +8,11 @@ import Tasks from './components/Tasks';
 import './components/Tasks.css';
 import Register from './components/Register';
 import './components/Register.css';
+import Login from './components/Login';
+import './components/Login.css';
+import Browse from './components/Browse';
+import './components/Browse.css';
+import ProtectedRoute from './ProtectedRoute';
 
 function App() {
   return (
@@ -17,6 +22,8 @@ function App() {
         <Route path="/groups" element={<Groups />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/browse" element={<ProtectedRoute><Browse /></ProtectedRoute>} />
       </Routes>
     </Router>
   );
