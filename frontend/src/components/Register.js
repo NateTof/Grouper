@@ -80,6 +80,9 @@ const Register = () => {
 
     return (
         <div className="Register-screen">
+            <div className="register-logo">
+                <a href="/">GROUPER</a>
+            </div>
             <div className="Register-halfone">
 
                 <div className="Register-accounttitle">Make an account</div>
@@ -137,6 +140,7 @@ const Register = () => {
                     <Link to="/login">Login</Link>
                 </div>
             </div>
+            
         </div>
     );
 };

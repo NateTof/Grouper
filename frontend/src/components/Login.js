@@ -51,6 +51,9 @@ const Login = () => {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
         }}>
+            <div className="logo">
+                <a href="/">GROUPER</a>
+            </div>
             <div className="Login-halfone">
                 <div className="Login-accounttitle">Log in to Grouper</div>
                 <div className="input-container"></div>

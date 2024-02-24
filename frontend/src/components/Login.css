@@ -6,10 +6,31 @@
 }
 
 .Login-screen {
+    position: relative;
     background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: row;
+}
+.logo {
+    z-index: 1000;
+    text-decoration: none;
+    height: 12vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+}
+
+.logo a {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 4.5vh;
 }
 
 .Login-halfone {
