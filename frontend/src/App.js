@@ -14,19 +14,25 @@ import Browse from './components/Browse';
 import './components/Browse.css';
 import ProtectedRoute from './ProtectedRoute';
 import Dashboard from './components/Dashboard';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/browse" element={<ProtectedRoute><Browse /></ProtectedRoute>} />
-        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-        <Route path="/createnewgroup" element={<ProtectedRoute><CreateNewGroup /></ProtectedRoute>} />
-        <Route path="/createnewgroup/createnewtask" element={<ProtectedRoute><CreateNewTask /></ProtectedRoute>} />
-      </Routes>
+      <div style={{ display: 'flex' }}>
+        <Sidebar />
+        <div style={{ flex: 1, padding: '20px' }}> 
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/browse" element={<Browse />} />
+            <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+            <Route path="/createnewgroup" element={<ProtectedRoute><CreateNewGroup /></ProtectedRoute>} />
+            <Route path="/createnewgroup/createnewtask" element={<ProtectedRoute><CreateNewTask /></ProtectedRoute>} />
+          </Routes>
+        </div>
+      </div>
     </Router>
   );
 }
