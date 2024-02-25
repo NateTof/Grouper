@@ -21,7 +21,7 @@ function App() {
     <Router>
       <div style={{ display: 'flex' }}>
         <Sidebar />
-        <div style={{ flex: 1, padding: '20px' }}> 
+        <div style={{ flex: 1}}> 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/register" element={<Register />} />
