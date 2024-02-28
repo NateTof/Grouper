@@ -1,0 +1,153 @@
+.CreateNewTask {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.CreateNewTask-screen {
+    background-color: #EDEEFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.CreateNewTask-nav {
+    width: 100%;
+    color: white;
+    padding: 1vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+
+.CreateNewTask-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    width: 50vw;
+}
+
+.CreateNewTask-nav-links a {
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 2.2vh;
+}
+
+.CreateNewTask-nav-logo {
+    text-decoration: none;
+    height: 12vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CreateNewTask-nav-logo a {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;    
+    color: black;
+    text-decoration: none;
+    font-size: 4.5vh;
+}
+.CreateNewTask-second {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.CreateNewTask-header-container {
+    height: 100vh;
+    display: flex;
+    width: 64vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CreateNewTask-header {
+    display: flex;
+    font-size: 5vh;
+    color: black;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    height: 20vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.CreateNewTask img {
+    max-width: 100vw;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.CreateNewTask-subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 25vw;
+    text-align: center;
+}
+.CreateNewTask-subheader a:hover {
+    background-color: black;
+    color: white;
+}
+.CreateNewTask-subheader a {
+    background-color: #C2AFF0;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 2.3vh;
+    padding: 1vh 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 2.2vw;
+}
+.CreateNewTask-card {
+    width: 22vw;
+    height: 22vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+button {
+    background-color: #C2AFF0;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Syne", sans-serif;
+    border-radius: .9vw;
+    width: 21.3vw;
+    height: 5.7vh;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.input-container {
+    margin: .8vh 0;
+}
+
+.inputBox {
+    padding: 10px;
+    border: .7px solid black;
+    border-radius: .9vw;
+    width: 20vw;
+    height: 3.5vh;
+    font-family: "Syne", sans-serif;
+}
